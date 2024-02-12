@@ -1,5 +1,6 @@
 import React from "react";
-import myImg from "../assets/images/myImg.jpg";
+// import myImg from "../assets/images/myPic.png";
+import myImg from "../assets/images/ww.png";
 const Hero = () => {
   const social_media = ["logo-instagram", "logo-facebook", "logo-linkedin", "logo-twitter"];
   return (
@@ -17,8 +18,8 @@ const Hero = () => {
                 <span className="text-white md:text-4xl text-3xl "> My Name is Mohammed Irshad</span>
               </span>
             </h1>
-            <h4 className="md:text-2xl text-lg md:leading-normal leading-5 mt-4 font-bold text-gray-600">Fronted Developer</h4>
-            <button className="btn-primary mt-4">Contact Me</button>
+            <h4 className="md:text-2xl text-lg md:leading-normal leading-5 mt-4 font-bold text-gray-600">React Developer</h4>
+            <button className="btn-primary mt-4 text-2xl">Contact Me</button>
             <div className="mt-8 text-3xl flex items-center md:justify-start justify-center gap-5">
               {social_media?.map((icon) => (
                 <div key={icon} className="text-gray-600 hover:text-white cursor-pointer">

@@ -1,5 +1,5 @@
 import React from "react";
-import myImg from "../assets/images/myImg.jpg";
+import myImg from "../assets/images/myImg2.png";
 import { HeadingCommon } from "../pages";
 const HireMe = () => {
   return (
@@ -17,7 +17,7 @@ const HireMe = () => {
             </p>
             <button className="btn-primary mt-10">Say Hello</button>
           </div>
-          <img src={myImg} alt="img not found" className="lg:h-[100%] h-80 lg:absolute bottom-0 right-0  object-cover " />
+          <img src={myImg} alt="img not found" className="lg:h-full h-80 lg:absolute bottom-0 right-0  object-cover " />
         </div>
       </section>
     </>

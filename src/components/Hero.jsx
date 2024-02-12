@@ -7,7 +7,7 @@ const Hero = () => {
     <>
       <section id="home" className="min-h-screen flex py-20 md:flex-row flex-col items-center md:h-[500px]">
         <div className="flex-1 flex items-center justify-center h-full p-7">
-          <img src={myImg} alt="img not found" className="md:w-2/3 h-full object-cover rounded-tl-[40px] rounded-br-[40px]  -rotate-8" />
+          <img src={myImg} alt="img not found" className="md:w-2/3 h-full object-cover rounded-[40px] -rotate-8" />
         </div>
         <div className="flex-1 p-3">
           <div className="md:text-left text-center">
